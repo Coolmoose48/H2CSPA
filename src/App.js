@@ -1,22 +1,25 @@
 import React from 'react';
 import './App.css';
+import { Button} from 'react-bootstrap';
+import { Form} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import { render } from '@testing-library/react';
+
+
 
 function App() {
   return (
     <div className="App">
+       
       		<header className="App-header">
-     	 	        <h1 style={{color: "red"}}>WELCOME!!!!!</h1>
-       			    <div>
-                 <p>
-                 Getting started with react
-        			   Join with Mika Ahlsten to this journey :)
-                </p>
-                </div>
+     	 	        <img src="images/agentslogo300.png" alt=""></img>
+       			    
       		</header>
      	</div>
       
 
   );
 }
+
 
 export default App;
